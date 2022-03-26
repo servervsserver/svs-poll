@@ -12,8 +12,8 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 * "custom" refers to the theme assigned to the poll element
 */
 .custom {
-	background: #000;
-	width: 300px;
+	background: #FFFADD;
+	width: 350px;
 	transition: opacity 1s;
 	padding: 10px;
 
@@ -36,6 +36,7 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 .custom .total, .custom .duration {
 	background: #FFFADD;
 	color: #42426E;
+	font-weight: bold;
 	float: left;
 	width: 49%;
 	text-align: center;
@@ -46,6 +47,7 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 .custom .total strong,
 .custom .duration strong {
 	color: #42426E;
+	font-weight: bold;
 	font-size: 20px;
 	display: block;
 }
@@ -60,6 +62,7 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 .custom.finished .options li.highest,
 .custom.removing .options li.highest {
 	color: #42426E;
+	font-weight: bold;
 	opacity: 1;
 }
 
@@ -79,6 +82,7 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 	border: 1px;
 	padding: 10px;
 	color: #42426E;
+	font-weight: bold;
 	text-overflow: ellipsis;
 	background: #FFFADD;
 	padding-right: 55px;
@@ -135,9 +139,9 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 /*
 * Optional outer border
 */
-.custom .border {
+/* .custom .border {
 	border: 5px solid red;
-}
+} */
 
 
 .custom .credits {
