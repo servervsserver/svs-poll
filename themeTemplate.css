@@ -35,6 +35,7 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 }
 .custom .total, .custom .duration {
 	background: #FFFADD;
+	color: #42426E;
 	float: left;
 	width: 49%;
 	text-align: center;
@@ -116,12 +117,12 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 	left: 10px;
 }
 .custom .options li .bar {
-	background: #FFFADD;
+	background: #41416E;
 	height: 5px;
 	margin-top: 5px;
 }
 .custom .options li .bar .bar-inner {
-	background: #FFFADD;
+	background: #F5816A;
 	height: 100%;
 	width: 0;
 	transition: width 1s;
